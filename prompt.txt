@@ -1,0 +1,2 @@
+Install three agent skills for me. Clone https://github.com/crazywillbear/ai-club-skills and copy its grill-me, to-spec, and fresh-review folders into ~/.copilot/skills/ (create the folder if it doesn’t exist). Then tell me how to confirm they loaded.
+
