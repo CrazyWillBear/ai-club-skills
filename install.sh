@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Installs the club skills (grill-me, to-spec) for Claude Code, GitHub Copilot CLI,
+# Installs the club skills (grill-me, to-spec, fresh-review) for Claude Code, GitHub Copilot CLI,
 # and other agents that read the shared ~/.agents/skills location.
-# Safe to re-run: it overwrites older copies of these two skills.
+# Safe to re-run: it overwrites older copies of these skills.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SKILLS=(grill-me to-spec)
+SKILLS=(grill-me to-spec fresh-review)
 TARGETS=("$HOME/.claude/skills" "$HOME/.copilot/skills" "$HOME/.agents/skills")
 
 for target in "${TARGETS[@]}"; do
